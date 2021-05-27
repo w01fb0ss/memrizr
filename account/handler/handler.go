@@ -11,6 +11,7 @@ type Handler struct{}
 
 type Config struct {
 	R *gin.Engine
+	US *model.UserService
 }
 
 func NewHandler(c *Config) {
